@@ -1,0 +1,14 @@
+﻿<Application x:Class="WpfDropBoxClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfDropBoxClient"
+             StartupUri="Views/MainWindowView.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="imgFolder" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/Folders.s.png" />
+        <BitmapImage x:Key="imgFile" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/Project Empty.s.png" />
+        <BitmapImage x:Key="imgDelete" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/delete.s.png" />
+        <BitmapImage x:Key="imgCreate" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/add.s.png" />
+        <BitmapImage x:Key="imgAddFolder" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/Add Folder.s.png" />
+        <BitmapImage x:Key="imgRefresh" UriSource="pack://application:,,,/WpfDropBoxClient;component/Resources/Images/Refresh.s.png" />
+    </Application.Resources>
+</Application>

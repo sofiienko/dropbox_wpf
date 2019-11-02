@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dropbox.Api" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DropBox\DropBox.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Add Project.s.png" />
+    <Resource Include="Resources\Images\add.s.png" />
+    <Resource Include="Resources\Images\delete.s.png" />
+    <Resource Include="Resources\Images\Folder.s.png" />
+    <Resource Include="Resources\Images\OK.s.png" />
+    <Resource Include="Resources\Images\Project Empty.s.png" />
+    <Resource Include="Resources\Images\Refresh.s.png" />
+  </ItemGroup>
+
+
+</Project>
